@@ -1,1 +1,203 @@
 /* ADD YOUR STYLES HERE */
+
+/*6. Horizontally Spaced*/
+
+.horizontal-boxes {
+	width: 700px;
+	text-align: center;
+}
+
+.img-box {
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content-box {
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: initial;
+}
+
+/*7. Vertically Spaced*/
+
+.vertical-container {
+	height: 300px;
+	width: 300px;
+	line-height: 300px;
+}
+
+.vertical-ghost {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: initial;
+}
+
+/*8. Horizontal List*/
+
+.horizontal-list {
+	display: inline;
+	padding-left: 0px;
+}
+
+.horizontal-list li {
+	display: inline;
+}
+
+/*9. Buttons*/
+
+.large-button {
+	display: inline-block;
+	background: salmon;
+	padding: 20px 60px 20px 60px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	border-radius: 7px;
+}
+
+.medium-button {
+	display: inline-block;
+	background: salmon;
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+}
+
+.small-button {
+	display: inline-block;
+	background: salmon;
+	padding: 4px 7px 4px 7px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+/*10. Navigation*/
+
+.navigation {
+	display: block;
+	width: 600px;
+	background: salmon;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.navigation-list {
+	display: inline;
+	padding: 0px;
+}
+
+.navigation-list li {
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.navigation-list a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-list a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+/*11. Pagination*/
+
+.pagination-list {
+	display: inline-block;
+	padding: 0px;
+	width: 500px;
+	text-align: center;
+}
+
+.pagination-list li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 3px solid salmon;
+	padding-bottom: 10px;
+	margin: 2px;
+}
+
+.pagination-list a {
+	color: salmon;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.pagination-list span {
+	color: lightgray;
+}
+
+.pagination-list .active {
+	border-bottom: 3px solid lightgray;
+
+}
+
+.pagination-list .nav {
+	border-bottom: none;
+
+}
+
+/*12. Comment Stream*/
+
+.comment-container {
+	clear: both;
+}
+
+.comment-content-img {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.comment-content {
+	overflow: hidden;
+}
+
+.comment-content time {
+	color: lightgray;
+	font-size: 12px;
+}
+
+/*13. Tabs*/
+
+.tabbed-list li {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid steelblue;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom-color: white;
+}
+
+.tabbed-list a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tabbed-content {
+/*	position:relative;
+	top: -3px;*/
+	padding: 10px;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+	background: white;
+}
+
+.tabbed-list .active {
+	border-bottom: 2px solid white;
+    margin-bottom: -1px;
+}
